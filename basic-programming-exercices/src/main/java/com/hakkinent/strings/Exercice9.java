@@ -14,6 +14,7 @@ public class Exercice9 {
 
         // Ordenar os sufixos lexicograficamente
         Arrays.sort(suffixArray);
+        System.out.println(Arrays.toString(suffixArray));
 
         // Passo 2: Construir o array LCP
         int[] lcp = new int[n];
@@ -47,9 +48,10 @@ public class Exercice9 {
 
     // Testar o programa
     public static void main(String[] args) {
-        String input = "banana";
+        String input = "bbbbb";
         String result = findLongestRepeatedSubstring(input);
         System.out.println("A substring mais longa que se repete é: " + result);
     }
     
 }
+ 

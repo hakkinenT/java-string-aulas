@@ -8,6 +8,7 @@ public class SubstringSearchKMP {
         KMP("banana", "ana");
         System.out.println("banana".substring(1, 4));
         System.out.println("banana".substring(3, 6));
+        KMP("bbbbb", "b");
     }
 
     public static int[] computeLPSArray(String pattern) {
